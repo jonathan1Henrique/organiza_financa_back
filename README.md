@@ -1,7 +1,7 @@
 # Organiza finança back
 Sistema para organizar finanças banck end
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 Java 8, 
 Lombok,
 Spring web,

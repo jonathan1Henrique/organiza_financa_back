@@ -17,10 +17,10 @@ import java.math.BigDecimal;
 public class DespesasMensais implements Serializable {
 
     @Id
-    @Column(name = "ID")
+    @Column(name = "id")
     @GeneratedValue(generator = "sq_despesas_mensais", strategy = GenerationType.SEQUENCE)
     @SequenceGenerator(name = "sq_despesas_mensais", sequenceName = "sq_despesas_mensais", initialValue = 1, allocationSize = 1)
-    private Integer id;
+    private Long id;
 
     @Column(name = "total_gasto")
     private BigDecimal totalGasto;
